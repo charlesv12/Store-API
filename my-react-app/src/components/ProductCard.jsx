@@ -1,3 +1,7 @@
+import styles from './ProductCard.module.css';
+// ...
+<div className={styles.card}></div>
+
 // src/components/ProductCard.jsx
 export default function ProductCard({ product }) {
     return (
