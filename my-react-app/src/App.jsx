@@ -2,10 +2,10 @@ import { useState } from 'react'
 import NavBar from './layouts/NavBarLayout.jsx'
 import FooterLayout from './layouts/FooterLayout.jsx'
 import ProductCard from './components/ProductCard';
+import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
-import './App.css'
 
 const products = [
   { id: 1, name: 'Wireless Mouse', price: 599 },
